@@ -1291,7 +1291,7 @@ ul {
 }
 
 .section-header {
-  font-size: 35px;
+  font-size: 28px;
   font-family: Hahmlet;
   font-stretch: condensed;
   font-weight: medium;
@@ -1303,4 +1303,17 @@ ul {
   color: transparent;
   text-shadow: 0 0 0 var(--header-color);
   line-height: 1em;
+}
+
+.map {
+    width: 80%;
+}
+
+#simplemap img {
+    width: 80%;
+    max-width: 320px;
+}
+
+@media screen and (min-width:768px) {
+    .mobile-only { display: none; }
 }
